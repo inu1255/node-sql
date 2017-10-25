@@ -1,6 +1,6 @@
 {
-  "name": "node-sql",
-  "version": "1.0.0",
+  "name": "nodemyadmin",
+  "version": "1.0.1",
   "description": "a web tools like phpmyadmin",
   "main": "index.js",
   "scripts": {

@@ -9,6 +9,7 @@ const fs = require("fs");
 const router = express.Router();
 const api = require("./api");
 const bodyParser = require('body-parser');
+const path = require("path");
 
 // 此处加载的中间件也可以自动更新
 router.use(function(req, res, next) {
@@ -21,7 +22,7 @@ router.use(function(req, res, next) {
     next();
 });
 
-router.use(express.static('public'));
+router.use(express.static(path.join(__dirname, 'public')));
 router.use("/api", bodyParser.json());
 router.use("/api", bodyParser.urlencoded({ extended: false }));
 router.use("/api", api);

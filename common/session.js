@@ -2,20 +2,14 @@
  * Created Date: 2017-09-27 14:13:07
  * Author: inu1255
  * E-Mail: 929909260@qq.com
- * -----
- * Last Modified: 2017-09-30 09:34:34
- * Modified By: inu1255
- * -----
- * Copyright (c) 2017 gaomuxuexi
  */
 const session = require('express-session');
 const RedisStore = require('connect-redis')(session);
+const config = require("./config");
 
 const sessionMiddleware = session({
     name: 'session',
-    store: new RedisStore({
-        prefix: "qianxun:"
-    }),
+    store: config.redis ? new RedisStore(config.redis) : undefined,
     secret: '652927164',
     resave: true,
     saveUninitialized: false,

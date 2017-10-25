@@ -1,5 +1,6 @@
 const co = require("co");
 const knex = require("knex");
+const config = require("./config");
 
 const dbs = {};
 
@@ -25,7 +26,7 @@ Mysql.prototype.login = function(address, database, user, password) {
                 database: database
             },
             pool: { min: 1, max: 1 },
-            debug: process.env.NODE_ENV === "development"
+            debug: config.dev
         });
         try {
             yield that.knex.raw("show databases");
