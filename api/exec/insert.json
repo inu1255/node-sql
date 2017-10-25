@@ -1,0 +1,19 @@
+{
+    "name": "添加数据",
+    "method": "POST",
+    "params": {
+        "table": {
+            "rem": "表名",
+            "need": true
+        },
+        "data": {
+            "rem": "数据",
+            "need": true
+        }
+    },
+    "error": {},
+    "ret": {
+        "no": 200,
+        "msg": ""
+    }
+}

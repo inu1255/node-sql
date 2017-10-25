@@ -1,0 +1,22 @@
+{
+    "name": "修改数据",
+    "method": "POST",
+    "params": {
+        "table": {
+            "rem": "表名",
+            "need": true
+        },
+        "where": {
+            "rem": "条件"
+        },
+        "data": {
+            "rem": "数据",
+            "need": true
+        }
+    },
+    "error": {},
+    "ret": {
+        "no": 200,
+        "msg": ""
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "name": "登录",
+    "method": "POST",
+    "params": {
+        "type": {
+            "rem": "数据库类型",
+            "def": "mysql"
+        },
+        "address": {
+            "rem": "数据库地址",
+            "def": "127.0.0.1"
+        },
+        "database": {
+            "rem": "数据库名",
+            "need": true
+        },
+        "user": {
+            "rem": "用户名",
+            "def": "root"
+        },
+        "password": {
+            "rem": "密码",
+            "need": true
+        }
+    },
+    "error": {
+        "404": "不支持的数据库类型"
+    },
+    "ret": {
+        "no": 200,
+        "msg": ""
+    }
+}

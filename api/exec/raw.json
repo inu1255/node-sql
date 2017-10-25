@@ -1,0 +1,15 @@
+{
+    "name": "执行sql语句",
+    "method": "POST",
+    "params": {
+        "sql": {
+            "rem": "sql语句",
+            "need": true
+        }
+    },
+    "error": {},
+    "ret": {
+        "no": 200,
+        "msg": ""
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "name": "登出",
+    "method": "GET",
+    "params": {
+    },
+    "error": {
+    },
+    "ret": {
+        "no": 200,
+        "msg": ""
+    }
+}

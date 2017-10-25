@@ -1,0 +1,11 @@
+{
+    "name": "获取数据库列表",
+    "method": "GET",
+    "params": {},
+    "error": {},
+    "ret": {
+        "no": 200,
+        "msg": "",
+        "data": []
+    }
+}

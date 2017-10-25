@@ -1,0 +1,36 @@
+@import "../easy-react/easy.less";
+
+.MainTable {
+    .ant-layout-sider {
+        .ant-menu {
+            height: 100%;
+            border-right: 1px solid #ccc;
+        }
+    }
+    .content {
+        padding: 0 24px 24px;
+        >.ant-breadcrumb {
+            margin: 16px 0;
+        }
+        >.ant-layout-content {
+            background: #fff;
+            padding: 24px;
+            margin: 0;
+            min-height: 580px;
+        }
+    }
+    .table{
+        position: relative;
+        .add{
+            position: absolute;
+            top: -62px;
+            right: 0;
+        }
+    }
+}
+
+.MainTableModal{
+    >*{
+        margin: 2px 0;
+    }
+}

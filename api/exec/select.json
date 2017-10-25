@@ -1,0 +1,29 @@
+{
+    "name": "查询数据",
+    "method": "POST",
+    "params": {
+        "table": {
+            "rem": "表名",
+            "need": true
+        },
+        "where": {
+            "rem": "条件"
+        },
+        "order": {
+            "rem": "排序"
+        },
+        "limit": {
+            "rem": "limit",
+            "def": 30
+        },
+        "offset": {
+            "rem": "offset",
+            "def": 0
+        }
+    },
+    "error": {},
+    "ret": {
+        "no": 200,
+        "msg": ""
+    }
+}

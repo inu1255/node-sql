@@ -1,0 +1,18 @@
+{
+    "name": "删除数据",
+    "method": "POST",
+    "params": {
+        "table": {
+            "rem": "表名",
+            "need": true
+        },
+        "where": {
+            "rem": "条件"
+        }
+    },
+    "error": {},
+    "ret": {
+        "no": 200,
+        "msg": ""
+    }
+}

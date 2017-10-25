@@ -1,0 +1,15 @@
+{
+    "name": "获取table列表",
+    "method": "GET",
+    "params": {
+        "database": {
+            "rem": "数据库"
+        }
+    },
+    "error": {},
+    "ret": {
+        "no": 200,
+        "msg": "",
+        "data": []
+    }
+}
