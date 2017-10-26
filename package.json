@@ -1,6 +1,6 @@
 {
   "name": "nodemyadmin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a web tools like phpmyadmin",
   "main": "index.js",
   "scripts": {
@@ -30,6 +30,7 @@
     "hiredis": "^0.5.0",
     "knex": "^0.13.0",
     "log4js": "^2.3.4",
+    "mockjs": "^1.0.1-beta3",
     "mysql": "^2.14.1",
     "node-hot-require": "^1.0.5",
     "nodemailer": "^4.1.1",

@@ -1,5 +1,5 @@
 # node-sql
 
-![](./screenshot/table.png)
+![](https://raw.githubusercontent.com/inu1255/node-sql/master/screenshot/table.png)
 
-![](./screenshot/sql.png)
+![](https://raw.githubusercontent.com/inu1255/node-sql/master/screenshot/sql.png)
